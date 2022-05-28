@@ -4,6 +4,7 @@ body, html{
     font-family: Helvetica;
     font-weight: 500;
     font-size: large;
+    scroll-behavior: smooth;
 }
 
 /* header */
@@ -29,10 +30,18 @@ nav {
   .navigation-item {
     margin: 10px;
   }
+  .navigation-item a {
+      color: aliceblue;
+      
+  }
+  .navigation-item a:hover {
+      text-decoration: none;
+  }
 
 
 /* Body */
 
+  /* About Me */
 .about-me-container {
     margin: auto;
     margin-top: 30px;
@@ -40,7 +49,7 @@ nav {
     padding: 10px;
     display: flex;
 }
-.text-container {
+.about-me-text-container {
     margin-right: 20px;
     text-align: justify;
     line-height: 30px;
@@ -51,4 +60,25 @@ nav {
     flex-shrink: 0;
     min-width: 300px
 }
+    /* Projects */
+
+.projects-text-container h2:hover {
+    cursor: pointer;
+
+}
+.user-manual-link:hover{
+    text-decoration: none;
+}
+
+.projects-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+
+}
+
+    /* Skills */
+
 

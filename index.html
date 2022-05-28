@@ -9,8 +9,8 @@
         <nav>
             <h2>Allan Araya</h2>
             <ul class="navigation-items">
-                <li class="navigation-item">About Me</li>
-                <li class="navigation-item">Projects</li>
+                <li class="navigation-item"><a href="#about-me">About Me</a></li>
+                <li class="navigation-item"><a href="#projects">Projects</a></li>
                 <li class="navigation-item">Skills</li>
                 <li class="navigation-item">Contact</li>
             </ul>
@@ -18,8 +18,8 @@
 
         <main>
             <section class="about-me">
-                <div class="about-me-container">
-                    <div class="text-container">
+                <div class="about-me-container" id="about-me">
+                    <div class="about-me-text-container">
                         <h1>About Me</h1>
                         <p>Hello! My name is Allan Araya, I'm a software engineering student from Costa Rica who is searching for
                          new opportunities to learn and grow. My main motivation in this career is to create new things based on 
@@ -35,7 +35,38 @@
                     <img src="./resources/AllanPhoto.jpeg" class="photo-allan" alt="Photo of Allan Araya">
                 </div>
             </section>
+
+            <section class="projects">
+                <div class="projects-container" id="projects">
+                    <div class="projects-text-container">
+                        <h2>Projects</h2>
+                        <summary class="project-title" id="project-title">
+                            <h3>Gym Aplication for user and admin</h3>
+                            <div class="project-description" id="project-description"> 
+                                <img src="./resources/gymApp.png" id="project-image">
+                            <p>In this C# application there are two applications, one for the client and one for the server administrator, 
+                            <a href="./resources/Manual de Usuario (1).pdf" download="userManualGymApp" class="user-manual-link" >here</a>
+                             you can download the user manual. Although you have to take into account that it is in Spanish.</p>
+                            </div>
+                            
+                        </summary>
+                        
+                    </div>
+
+                </div>
+
+            </section>
             
+            <section class="skills">
+                <div class="skills-container" id="skills">
+                    <div class="skills-text-container">
+                        
+                    </div>
+                </div>
+
+
+
+            </section>
                 
             
 
@@ -47,6 +78,7 @@
 
 
 
+        <script src="./script.js"></script>
 
     </body>
     
