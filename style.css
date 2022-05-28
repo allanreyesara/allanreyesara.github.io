@@ -1,0 +1,54 @@
+body, html{
+    background-color: black;
+    color: aliceblue;
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: large;
+}
+
+/* header */
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 380px;
+    margin-right: 280px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  
+  .navigation-item {
+    margin: 10px;
+  }
+
+
+/* Body */
+
+.about-me-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+}
+.text-container {
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.photo-allan {
+    width: 300px;
+    float: right;
+    flex-shrink: 0;
+    min-width: 300px
+}
+
