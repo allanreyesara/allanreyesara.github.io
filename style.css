@@ -61,6 +61,14 @@ nav {
     min-width: 300px
 }
     /* Projects */
+.projects-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    
+}
 
 .projects-text-container h2:hover {
     cursor: pointer;
@@ -69,14 +77,7 @@ nav {
     text-decoration: none;
 }
 
-.projects-container {
-    margin: auto;
-    margin-top: 30px;
-    width: 60%;
-    padding: 10px;
-    display: flex;
 
-}
 
     /* Skills */
 
