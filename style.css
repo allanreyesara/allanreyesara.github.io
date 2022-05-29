@@ -201,7 +201,6 @@ nav h2 {
 }
 
 footer {
-    
     width: 100%;
     position: absolute;
     margin-top: 15%;
@@ -215,18 +214,36 @@ footer {
     z-index: 2;
     display: flex;
     list-style-type: none;
-    padding: 0px;
     align-items: center;
-    margin-left: auto;
-    margin-right: 100px;
     height: 100px;
     width: 100%;
     justify-content: center;
-
+    margin: auto;
+    bottom: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
   }
   .footer-item {
-      margin: 20px;
+    margin-inline: 100px;
+    text-align: center;
+    
   }
+ .footer-image {
+     max-width: 50px;
+     align-items: center;
+ }
+ 
+ .bg-text a {
+     color: aliceblue;
+ }
+ .bg-text a:hover {
+     text-decoration: none;
+ }
 
+ @media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
 
 
