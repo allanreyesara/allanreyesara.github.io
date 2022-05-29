@@ -71,12 +71,11 @@ nav h2 {
     
 }
 .photo-allan {
-    width: 500px;
-    height: 500px;
+    min-width: 300px;
+    min-height: 300px;
     margin: auto;
     float: right;
-    flex-shrink: 0;
-    min-width: 300px
+    flex-shrink: 1;
 }
 
     /* Projects */
