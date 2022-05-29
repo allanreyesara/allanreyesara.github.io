@@ -1,13 +1,18 @@
-let projectDescription = document.getElementById('project-description');
-let projectTitle = document.getElementById('project-title');
 
-projectDescription.style.display = 'none';
 
-projectTitle.addEventListener('click', function() {
-    if (projectDescription.style.display === 'none'){
-        projectDescription.style.display = 'block';
+let basicSkillsTitle = document.getElementById('basic-skills-title');
+let generalSkills = document.getElementById('general-skills');
+let databaseEngines = document.getElementById('database-engines');
+
+databaseEngines.style.display = 'none';
+generalSkills.style.display = 'none'; 
+
+
+basicSkillsTitle.addEventListener('click', function() {
+    if (generalSkills.style.display === 'none'){
+        generalSkills.style.display = 'flex';
     } else {
-        projectDescription.style.display = 'none';
+        generalSkills.style.display = 'none'; 
     }
 });
     

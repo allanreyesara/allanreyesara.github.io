@@ -7,7 +7,6 @@ body, html{
     scroll-behavior: smooth;
     background-image: url(./resources/background.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -117,7 +116,7 @@ nav h2 {
     flex-wrap: wrap;
     display: flex;
     width: 100%;
-    align-content: center;
+
 }
 
 .skill-item {
@@ -125,12 +124,16 @@ nav h2 {
     text-align: center;
     width: 100px;
 }
-.general-skills {
+.skills-description {
     margin: auto;
     margin-top: 10px;
     width: 60%;
     padding: 10px;
     display: flex;
+}
+.skills-description h3:hover {
+    cursor: pointer;
+
 }
 #skill-logo {
     height: 100px;
