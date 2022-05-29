@@ -131,14 +131,30 @@ nav h2 {
     padding: 10px;
     display: flex;
 }
+
+
 .skills-description h3:hover {
     cursor: pointer;
 
 }
+.skills-description a {
+    text-decoration: none;
+    color: aliceblue;
+}
 #skill-logo {
     height: 100px;
+    max-height: 100px;
     min-height: 100px;
-    
+}
+#skill-logo-data {
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+}
+#skill-logo-tools{
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
 }
 
 
