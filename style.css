@@ -5,7 +5,12 @@ body, html{
     font-weight: 500;
     font-size: large;
     scroll-behavior: smooth;
+    background-image: url(./resources/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 /* header */
 
@@ -54,6 +59,7 @@ nav h2 {
     width: 60%;
     padding: 10px;
     display: flex;
+    justify-content: center;
 }
 .about-me-text-container {
     margin-right: 20px;
@@ -61,12 +67,16 @@ nav h2 {
     line-height: 30px;
 }
 .photo-allan {
-    width: 300px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
     float: right;
     flex-shrink: 0;
     min-width: 300px
 }
+
     /* Projects */
+
 .projects-container {
     margin: auto;
     margin-top: 30px;
@@ -74,6 +84,12 @@ nav h2 {
     padding: 10px;
     display: flex;
     
+}
+.project-description {
+    margin: auto;
+    text-align: justify;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .projects-text-container h3:hover {
@@ -83,8 +99,43 @@ nav h2 {
     text-decoration: none;
 }
 
-
-
     /* Skills */
+
+.skills-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.skills-images {
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    align-content: center;
+}
+
+.skill-item {
+    margin: 20px;
+    text-align: center;
+    width: 100px;
+}
+.general-skills {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+}
+#skill-logo {
+    height: 100px;
+    min-height: 100px;
+    
+}
 
 
