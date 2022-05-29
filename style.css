@@ -22,6 +22,7 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     top: 0%;
+    padding: 10px;
   }
 nav h2 {
     margin-left: auto;
@@ -29,7 +30,7 @@ nav h2 {
 .navigation-items {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     align-items: center;
     margin: 0;
     margin-left: auto;
@@ -52,18 +53,22 @@ nav h2 {
 /* Body */
 
   /* About Me */
-.about-me-container {
-    margin: auto;
-    margin-top: 100px;
+
+.about-me-section {
     width: 60%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
+
+.about-me-container {  
+    display: flex;
+}
+
 .about-me-text-container {
-    margin-right: 20px;
+    margin: 20px;
+    margin-top: 100px;
     text-align: justify;
     line-height: 30px;
+    
 }
 .photo-allan {
     width: 500px;
@@ -75,9 +80,11 @@ nav h2 {
 }
 
     /* Projects */
-
-.projects-container {
+.projects {
+    width: 60%;
     margin: auto;
+}
+.projects-container {
     margin-top: 30px;
     width: 60%;
     padding: 10px;
@@ -99,11 +106,12 @@ nav h2 {
 }
 
     /* Skills */
+.skills {
+    margin: auto;
+    width: 60%;
+}
 
 .skills-container {
-    margin: auto;
-    margin-top: 30px;
-    width: 60%;
     padding: 10px;
     display: flex;
 }
@@ -200,13 +208,6 @@ nav h2 {
     min-height: 100px;
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    margin-top: 15%;
-    z-index: 0;
-
-}
 
 .bg-text {
     background-color: rgb(0,0,0); 
@@ -215,7 +216,7 @@ footer {
     display: flex;
     list-style-type: none;
     align-items: center;
-    height: 100px;
+    height: auto;
     width: 100%;
     justify-content: center;
     margin: auto;
@@ -240,10 +241,23 @@ footer {
      text-decoration: none;
  }
 
+ 
  @media only screen and (max-width: 600px) {
     .about-me-container {
-      flex-direction: column;
+      flex-direction: row;
+    }
+    .about-me-text-container {
+        flex-direction: row;
+        text-align: end;
+
+    }
+    .about-me-section {
+        width: 100%;
+        margin: auto;
     }
   }
+
+
+
 
 
