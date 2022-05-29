@@ -106,7 +106,6 @@ nav h2 {
     width: 60%;
     padding: 10px;
     display: flex;
-    
 }
 
 .skills-images {
@@ -132,10 +131,11 @@ nav h2 {
 }
 .skills-description h3:hover {
     cursor: pointer;
+    text-decoration: none;
 
 }
 .skills-description a {
-    text-decoration: none;
+    text-decoration: underline;
     color: aliceblue;
 }
 
