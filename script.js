@@ -21,6 +21,9 @@ generalSkills.style.display = 'none';
 basicSkillsTitle.addEventListener('click', function() {
     if (generalSkills.style.display === 'none'){
         generalSkills.style.display = 'flex';
+        databaseEnginesContent.style.display = 'none';
+        toolsContent.style.display = 'none';
+        opContent.style.display = 'none';
     } else {
         generalSkills.style.display = 'none'; 
     }
@@ -29,6 +32,7 @@ basicSkillsTitle.addEventListener('click', function() {
 dataBaseTitle.addEventListener('click', function() {
     if (databaseEnginesContent.style.display === 'none'){
         databaseEnginesContent.style.display = 'flex';
+
     } else {
         databaseEnginesContent.style.display = 'none';
     }
