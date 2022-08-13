@@ -20,6 +20,8 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     top: 0%;
+    margin: 0%;
+    padding: 0%;
   }
 nav h2 {
     margin-left: auto;
