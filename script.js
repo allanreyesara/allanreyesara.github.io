@@ -32,7 +32,9 @@ basicSkillsTitle.addEventListener('click', function() {
 dataBaseTitle.addEventListener('click', function() {
     if (databaseEnginesContent.style.display === 'none'){
         databaseEnginesContent.style.display = 'flex';
-
+        generalSkills.style.display = 'none'; 
+        toolsContent.style.display = 'none';
+        opContent.style.display = 'none';
     } else {
         databaseEnginesContent.style.display = 'none';
     }
@@ -41,6 +43,9 @@ dataBaseTitle.addEventListener('click', function() {
 toolsTitle.addEventListener('click', function() {
     if (toolsContent.style.display === 'none'){
         toolsContent.style.display = 'flex';
+        generalSkills.style.display = 'none';
+        databaseEnginesContent.style.display = 'none';
+        opContent.style.display = 'none';
     } else {
         toolsContent.style.display = 'none';
     }
@@ -49,6 +54,9 @@ toolsTitle.addEventListener('click', function() {
 opTitle.addEventListener('click', function() {
     if (opContent.style.display === 'none') {
         opContent.style.display = 'flex';
+        generalSkills.style.display = 'none'; 
+        databaseEnginesContent.style.display = 'none';
+        toolsContent.style.display = 'none';
     } else {
         opContent.style.display = 'none';
     }

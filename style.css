@@ -6,8 +6,9 @@ body, html{
     font-size: large;
     scroll-behavior: smooth;
     background-image: url(./resources/background.jpg);
-    background-position: center;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
 }
 
 
