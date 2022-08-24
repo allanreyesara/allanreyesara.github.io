@@ -23,7 +23,7 @@ nav {
     margin-left: -10px;
   }
 nav h2 {
-    margin-left: auto;
+    margin-left: 30px;
 }  
 .navigation-items {
     display: flex;
