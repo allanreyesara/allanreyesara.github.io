@@ -81,12 +81,20 @@ nav h2 {
     width: 60%;
     margin: auto;
 }
+
+#projects-text a {
+    color: black;
+}
+
+#projects-text a:hover {
+    text-decoration: none;
+}
+
 .projects-container {
     margin-top: 30px;
     width: 60%;
     padding: 10px;
     display: flex;
-    
 }
 .project-description {
     margin: auto;
