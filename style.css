@@ -207,8 +207,7 @@ nav h2 {
 
 
 .bg-text {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: #0AA1DD; 
     z-index: 2;
     display: flex;
     list-style-type: none;
@@ -234,7 +233,7 @@ nav h2 {
  }
  
  .bg-text a {
-     color: aliceblue;
+     color: black;
  }
  .bg-text a:hover {
      text-decoration: none;
