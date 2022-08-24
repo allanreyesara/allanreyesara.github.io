@@ -82,11 +82,11 @@ nav h2 {
     margin: auto;
 }
 
-#projects-text a {
+#projects-container a {
     color: black;
 }
 
-#projects-text a:hover {
+#projects-container a:hover {
     text-decoration: none;
 }
 
