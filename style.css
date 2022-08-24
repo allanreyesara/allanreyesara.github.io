@@ -78,7 +78,7 @@ nav h2 {
 
     /* Projects */
 .projects {
-    width: 70%;
+    width: 60%;
     margin: auto;
     text-align: justify;
 }
@@ -93,7 +93,7 @@ nav h2 {
 
 .projects-container {
     margin-top: 30px;
-    width: 60%;
+    width: 70%;
     padding: 10px;
     display: flex;
 }
