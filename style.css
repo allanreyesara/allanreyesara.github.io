@@ -135,6 +135,7 @@ nav h2 {
 
 .skills-description li {
     list-style: none;
+    padding: 20px;
 }
 
 .skills-description li::before {
