@@ -1,6 +1,6 @@
 body, html{
     background-color: #E8F9FD;
-    color: aliceblue;
+    color: black;
     font-family: Helvetica;
     font-weight: 500;
     font-size: large;
@@ -40,7 +40,7 @@ nav h2 {
 }
 
 .navigation-item a {
-    color: aliceblue; 
+    color: black; 
 }
 
 .navigation-item a:hover {
