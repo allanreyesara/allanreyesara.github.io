@@ -135,22 +135,21 @@ nav h2 {
 
 .skills-description li {
     list-style: none;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .skills-description li::before {
     content: "\00BB";
 }
 
-.skills-description h3:hover {
+.skills-description a:hover {
     cursor: pointer;
     text-decoration: none;
-
 }
 .skills-description a {
     text-decoration: underline;
     color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #skill-logo {
