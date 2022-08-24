@@ -132,6 +132,15 @@ nav h2 {
     padding: 10px;
     display: flex;
 }
+
+.skills-description li {
+    list-style: none;
+}
+
+.skills-description li::before {
+    content: "\00BB";
+}
+
 .skills-description h3:hover {
     cursor: pointer;
     text-decoration: none;
