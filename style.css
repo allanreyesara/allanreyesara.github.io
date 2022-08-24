@@ -96,19 +96,7 @@ nav h2 {
     padding: 10px;
     display: flex;
 }
-.project-description {
-    margin: auto;
-    text-align: justify;
-    flex-wrap: wrap;
-    display: flex;
-}
 
-.projects-text-container h3:hover {
-    cursor: pointer;
-}
-.user-manual-link:hover{
-    text-decoration: none;
-}
 
     /* Skills */
 .skills {
