@@ -82,8 +82,6 @@ nav h2 {
     width: 60%;
     margin: auto;
     text-align: justify;
-    margin: 20px;
-    line-height: 30px;
 }
 
 #projects a {
@@ -107,8 +105,6 @@ nav h2 {
     margin: auto;
     width: 60%;
     text-align: justify;
-    margin: 20px;
-    line-height: 30px;
 }
 
 .skills-container {
@@ -179,6 +175,10 @@ nav h2 {
     min-height: 100px;
 }
 
+.skills-text-container {
+    margin: 20px;
+    line-height: 30px;
+}
 
 /* Contact */
 
