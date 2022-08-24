@@ -78,16 +78,16 @@ nav h2 {
 
     /* Projects */
 .projects {
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: justify;
 }
 
-#projects-text-container a {
+#projects a {
     color: black;
 }
 
-#projects-text-container a:hover {
+#projects a:hover {
     text-decoration: none;
 }
 
@@ -103,6 +103,7 @@ nav h2 {
 .skills {
     margin: auto;
     width: 60%;
+    text-align: justify;
 }
 
 .skills-container {
@@ -129,7 +130,6 @@ nav h2 {
     margin-top: 10px;
     width: 60%;
     padding: 10px;
-    text-align: justify;
     display: flex;
 }
 .skills-description h3:hover {
